@@ -15,7 +15,7 @@ public class SummerApiExportDemo {
         //设置接口及实现类
         serviceConfig.setInterfaceClass(SummerDemoService.class);
         serviceConfig.setRef(new SummerDemoServiceImpl());
-
+        //set
         //设置服务的group和版本号
         serviceConfig.setGroup("summer-rpc");
         serviceConfig.setVersion("v1.0");
